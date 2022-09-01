@@ -250,13 +250,9 @@ def ms_send_outlook_email():
     * Please do not modify or store any personal files within any of our directories. We use that drive as a staging area to load and distribute student level data to various systems/people within the DOE.\
     Thanks,
     """
-    # mailItem.To = 'YWang36@schools.nyc.gov' 
-    # mailItem.Cc = 'gnutter@schools.nyc.gov;RMayilrajan@schools.nyc.gov' 
-    mailItem.To = 'Van Biema Michael <MVanBiema@schools.nyc.gov>; Palladino Linette <LPalladino2@schools.nyc.gov>; Kaufman Helen <HKaufma@schools.nyc.gov>; Leo Maria <MLeo2@schools.nyc.gov>; \
-    Elkayam Barry <BElkaya@schools.nyc.gov>; Shah Archana <AShah@schools.nyc.gov>; Stamm Charles <CStamm@schools.nyc.gov>; Leong Melanie <MLeong@schools.nyc.gov>; \
-    Han Louise <LHan@schools.nyc.gov>; Silverman Joy <JSilverman8@schools.nyc.gov>'
-    # mailItem.Cc = 'Mayilrajan Rajamanickam <RMayilrajan@schools.nyc.gov>; \
-    # Nutter Grace <GNutter@schools.nyc.gov>; Powers Alan <APowers3@schools.nyc.gov>' 
+
+    mailItem.To = 'xxxxxx'
+    mailItem.Cc = 'xxxxxx' 
 
     # mailItem.Attachments.Add(os.path.join(os.getcwd(), 'fibonacci.py'))
     # mailItem.Attachments.Add(os.path.join(os.getcwd(), 'EmployeeClass.py'))
@@ -279,12 +275,9 @@ def rs_charter_send_outlook_email():
     mailItem.Body = """Hello All, \
     Weekly charter Related Service reports are generated and saved at the following location: R:\SEO Analytics\Share\Charter\{0}
     """.format(date.today().strftime("%Y%m%d"))
-    # mailItem.To = 'YWang36@schools.nyc.gov' 
-    # mailItem.Cc = 'gnutter@schools.nyc.gov;RMayilrajan@schools.nyc.gov' 
-    mailItem.To = 'Van Biema Michael <MVanBiema@schools.nyc.gov>; Delane Gurley Mia <MGurley@schools.nyc.gov>; Liu Mei <MLiu2@schools.nyc.gov>; \
-    Thompson Karyn <KThompson7@schools.nyc.gov>; Sandi Mariama <MSandi@schools.nyc.gov>' 
-    mailItem.Cc = 'Hammer John <JHammer4@schools.nyc.gov>; Daverin Rebecca <RDaverin2@schools.nyc.gov>; Powers Alan <APowers3@schools.nyc.gov>; \
-    Mayilrajan Rajamanickam <RMayilrajan@schools.nyc.gov>' 
+
+    mailItem.To = 'xxxxxx' 
+    mailItem.Cc = 'xxxxxx' 
 
     # mailItem.Attachments.Add(os.path.join(os.getcwd(), 'fibonacci.py'))
     # mailItem.Attachments.Add(os.path.join(os.getcwd(), 'EmployeeClass.py'))
